@@ -1,17 +1,34 @@
 @media screen and (max-width: 419px) {
+  body{
+    font-size: 20px;
+  }
+body h3{
+  font-size: 50px;
+}
+
 .row {
   text-align: left;
 }
-
+#lezioni .row img {
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+  }
 #lezioni .row > .left, #lezioni .row > .right{
-  width: 100%;
+  width: 50%;
   float: none;
 }
 #steps .row > .left,
 #steps .row > .central,
 #steps .row > .right{
   float: none;
-  width: 100%;
+  width: 50%;
 }
-
+.right{
+  margin-left: 0px;
+}
+}
+#why .row > .first, #why .row > .second, #why .row > .third {
+    width: 50%;
+    margin-top: 80px;
 }
